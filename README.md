@@ -1,8 +1,6 @@
 # Hi there 👋
 
-I'm [@ArthurGehren](https://github.com/ArthurGehren)
-
-Computer Engineering student with experience in software development, system administration, IT support, databases, and computer maintenance. Focused on building practical solutions and continuously expanding my technical skills.
+I'm **[@ArthurGehren](https://github.com/ArthurGehren)** — Computer Engineering student with experience in software development, IT infrastructure, system administration, databases, and technical support.
 
 ### What I Do
 
@@ -19,6 +17,4 @@ Python • SQL • Linux • Windows • Git • GitHub • MySQL • SQLite •
 
 ### Contact
 
-📧 [your-email@example.com](mailto:your-email@example.com)
-
-💼 LinkedIn: your-linkedin-profile
+📧 [your-email@example.com](mailto:your-email@example.com) • 💼 LinkedIn: your-linkedin-profile
