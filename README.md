@@ -17,4 +17,4 @@ Python • SQL • Linux • Windows • Git • GitHub • MySQL • SQLite •
 
 ### Contact
 
-📧 [your-email@example.com](mailto:your-email@example.com) • 💼 LinkedIn: your-linkedin-profile
+Feel free to connect with me through the LinkedIn link available on my GitHub profile.
