@@ -1,6 +1,6 @@
 # Hi there 👋
 
-I'm **Arthur Gehren** — [@ArthurGehren](https://github.com/ArthurGehren)
+I'm [@ArthurGehren](https://github.com/ArthurGehren)
 
 Computer Engineering student with experience in software development, system administration, IT support, databases, and computer maintenance. Focused on building practical solutions and continuously expanding my technical skills.
 
