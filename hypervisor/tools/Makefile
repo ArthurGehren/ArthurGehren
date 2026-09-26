@@ -2,7 +2,7 @@
 # Build with: make (from MSYS2 UCRT64 shell)
 
 CC = gcc
-CFLAGS = -Wall -Wextra -O2 -municode
+CFLAGS = -Wall -Wextra -O2
 LDFLAGS = -lole32 -lshell32
 
 all: setup.exe hvlog.exe
