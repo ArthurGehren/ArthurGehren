@@ -42,7 +42,7 @@
     <Configuration>Debug</Configuration>
     <Platform Condition="'$(Platform)' == ''">Win32</Platform>
     <RootNamespace>gbhv</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>$(LatestTargetPlatformVersion)</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -163,6 +163,7 @@
     <ClCompile Include="arch.c" />
     <ClCompile Include="entry.c" />
     <ClCompile Include="ept.c" />
+    <ClCompile Include="hooklog.c" />
     <ClCompile Include="exit.c" />
     <ClCompile Include="os_nt.c" />
     <ClCompile Include="util.c" />
@@ -173,6 +174,7 @@
   <ItemGroup>
     <ClInclude Include="debugaux.h" />
     <ClInclude Include="ept.h" />
+    <ClInclude Include="hooklog.h" />
     <ClInclude Include="exit.h" />
     <ClInclude Include="extern.h" />
     <ClInclude Include="lde64.h" />
