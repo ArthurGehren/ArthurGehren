@@ -1,0 +1,41 @@
+;
+; hvmonitor.inf - Install file for HvMonitor hypervisor driver
+;
+
+[Version]
+Signature   = "$WINDOWS NT$"
+Class       = System
+ClassGuid   = {4D36E97D-E325-11CE-BFC1-08002BE10318}
+Provider    = %ProviderString%
+DriverVer   = 09/26/2026,1.0.0.0
+CatalogFile = hvmonitor.cat
+
+[DestinationDirs]
+DefaultDestDir = 13
+
+[SourceDisksNames]
+1 = %DiskId1%,,,""
+
+[SourceDisksFiles]
+hvmonitor.sys = 1,,
+
+[DefaultInstall.NTamd64]
+CopyFiles = Driver_CopyFiles
+
+[Driver_CopyFiles]
+hvmonitor.sys
+
+[DefaultInstall.NTamd64.Services]
+AddService = HvMonitor,,Driver_Service
+
+[Driver_Service]
+DisplayName    = %ServiceDesc%
+ServiceType    = 1               ; SERVICE_KERNEL_DRIVER
+StartType      = 3               ; SERVICE_DEMAND_START
+ErrorControl   = 1               ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %13%\hvmonitor.sys
+
+[Strings]
+ProviderString = "HvMonitor"
+ServiceDesc    = "HvMonitor VT-x Function Logger"
+DiskId1        = "HvMonitor Installation Disk"
